@@ -13,6 +13,6 @@ $ gcc -O -Wall -W -pedantic -ansi -std=c89 filename.c -o filename
 ```
 
 ```sh
-$ gcc -O -Wall -W -pedantic -ansi -std=c89 filename.c -o filename
+$ gcc -O -Wall -W -pedantic -ansi -std=c99 filename.c -o filename
 ```
 
