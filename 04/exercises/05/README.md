@@ -6,7 +6,7 @@ What is the value of each of the following expressions in C89? (Give all possbil
 (d) `-8 % -5`  
 
 ### Solution
-(a)  3
-(b) -3,  2
-(c) -3,  2
-(d)  3,  2
+(a)  3  
+(b) -3,  2  
+(c) -3,  2   
+(d)  3,  2   
