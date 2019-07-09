@@ -7,8 +7,8 @@ Which of the following are not legal constants in C? Classify each legal constan
 (e) `3.978e-2`  
 
 ### Solution
-(c) (d) are not legal constants.
+(c) and (d) are not legal constants.
 
-(a) (b) (e) are all legal floating-point constants.
+(a), (b), and (e) are all legal floating-point constants.
 
 
