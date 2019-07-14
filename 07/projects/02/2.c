@@ -11,7 +11,10 @@ int main(void)
     
     for (i = 1; i <= n; i++) {
         printf("%10d%10d\n", i, i * i);
-        if (i % 24 == 0) getchar();
+        if (i % 24 == 0) {
+            printf("Press Enter to continue...");
+            getchar();
+        }
     }
 
   return 0;
