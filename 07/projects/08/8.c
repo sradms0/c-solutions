@@ -11,7 +11,7 @@ int main(void)
 
     char period;
 
-    printf("Enter a 24-hour time: ");
+    printf("Enter a 12-hour time: ");
     scanf("%d:%d %c", &hour, &minute, &period);
 
     mins_pass = ( (toupper(period) == 'P' ? 12 : 0) + hour ) * 60 + minute;
