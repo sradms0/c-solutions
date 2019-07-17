@@ -10,7 +10,7 @@ int main(void)
     scanf("%d: %d %c", &hour, &minute, &period);
 
     hour += (toupper(period) == 'P' && hour != 12) ? 12 : 0;
-    printf("Equivalent 24-hour time: %d:%d\n", hour, minute);
+    printf("Equivalent 24-hour time: %.2d:%.2d\n", hour, minute);
     
     return 0;
 }
