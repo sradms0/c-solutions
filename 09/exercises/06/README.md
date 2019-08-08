@@ -3,7 +3,8 @@ Write a function `digit(n, i)` that returns the `k`<sup>th</sup> digit (from the
 
 ### Solution
 ```c
-int digit(int n, int k) {
+int digit(int n, int k)
+{
   int i;
   for (i = 1; i < k; i++) n /= 10;
   return n % 10;

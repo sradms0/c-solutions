@@ -3,7 +3,8 @@ Write a function `num_digits(n)` that returns the number of digits in `n` (a pos
 
 ### Solution
 ```c
-int num_digits(int n) {
+int num_digits(int n)
+{
   int i = 0;
 
   while (n > 0) {

@@ -3,7 +3,8 @@ Write a function `day_of year(month, day, year)` that returns the day of the yea
 
 ### Solution
 ```c
-int day_of_year(int month, int day, int year) {
+int day_of_year(int month, int day, int year)
+{
   int month_days[12] = {31, 28, 31, 30, 31, 30, 31, 30, 31, 30, 31, 30};
   int day_total = 0, i = 0;
 

@@ -3,7 +3,8 @@ Write a function `check (x, y, n)` that returns 1 if both `x` and `y` fall betwe
 
 ### Solution
 ```c
-int check(int x, int y, int n) {
+int check(int x, int y, int n)
+{
   if (x >= 0 && x <= n-1 && y >= 0 && y <= n-1) {
     return 1;
   }

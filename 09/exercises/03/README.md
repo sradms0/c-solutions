@@ -3,7 +3,8 @@ Write a function `gcd(m, n)` that calculates the greatest common divisor of the 
 
 ### Solution
 ```c
-int gcd(int m, int n) {
+int gcd(int m, int n)
+{
   int r;
 
   while (n > 0) {
