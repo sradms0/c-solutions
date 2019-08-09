@@ -7,5 +7,6 @@ int fact(int n)
 {
   int i;
   for (i = n; i > 1; n *= (i-1), i--);
+  return n;
 }
 ```
