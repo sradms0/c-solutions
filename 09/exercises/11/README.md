@@ -7,6 +7,8 @@ The `grades` array will contain letter grades (A, B, C, D, or F, either upper-ca
 
 ### Solution
 ```c
+#include <ctype.h>
+
 float compute_GPA(char grades[], int n)
 {
   int i;
