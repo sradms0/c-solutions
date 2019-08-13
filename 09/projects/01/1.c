@@ -2,6 +2,8 @@
 
 #define N 8
 
+void selection_sort(int n, int ints[n]) 
+
 int main(void)
 {
     int i = 0, ints[N];
