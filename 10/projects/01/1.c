@@ -85,13 +85,13 @@ char pop(void)
 void stack_overflow(void)
 {
     printf("Stack Overflow\n");
-    exit(EXIT_SUCCESS);
+    exit(EXIT_FAILURE);
 }
 
 void stack_underflow(void)
 {
     printf("Stack Underflow\n");
-    exit(EXIT_SUCCESS);
+    exit(EXIT_FAILURE);
 }
 
 bool is_right_brace(char c)
