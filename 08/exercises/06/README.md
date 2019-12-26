@@ -22,7 +22,7 @@ I've given you the first row of the initializer; fill in the rest.
 const int segments[10][7] = {
   {1, 1, 1, 1, 1, 1, 0},
   {0, 1, 1, 0, 0, 0, 0},
-  {1, 1, 0, 1, 1, 0, 0},
+  {1, 1, 0, 1, 1, 0, 1},
   {1, 1, 1, 1, 0, 0, 1},
   {0, 1, 1, 0, 0, 1, 1},
   {1, 0, 1, 1, 0, 1, 1},
