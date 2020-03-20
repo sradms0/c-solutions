@@ -15,7 +15,7 @@ int main(void)
     } 
 
     for (p--, q = &msg[0]; *p == *q && p != q; p--, q++);
-    if (p == q) printf("Palindrome\n");
+    if (p <= q) printf("Palindrome\n");
     else printf("Not a palindrome\n");
 
     return 0;
