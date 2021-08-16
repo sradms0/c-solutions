@@ -8,4 +8,4 @@ should produce the following output:
 Total: 94
 ```
 ### Solution
-See `5.c`.
+See `sum.c`.
