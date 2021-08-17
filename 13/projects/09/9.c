@@ -11,7 +11,7 @@ int main(void)
     char ch, *p = sentence;
 
     printf("Enter a sentence: ");
-    while((ch = getchar()) != '\n')
+    while((ch = getchar()) != '\n' && p < sentence+LENGTH)
         *p++ = ch;
     *p = '\0';
 
