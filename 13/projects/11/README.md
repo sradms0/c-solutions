@@ -5,3 +5,4 @@ double compute_average_word_length(const char *sentence);
 ```
 The function returns the average length of the words in the string pointed to by sentence.
 ### Solution
+See `11.c`
